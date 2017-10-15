@@ -1,0 +1,27 @@
+{
+  "name": "smallpack",
+  "version": "1.0.0",
+  "description": "A small library to encode unicode strings or objects to base64",
+  "main": "smallpack.js",
+  "scripts": {
+    "babelify": "babel smallpack.js -o build/smallpack.js",
+    "uglify": "uglifyjs build/smallpack.js -cm -o build/smallpack.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:mugiseyebrows/smallpack.git"
+  },
+  "keywords": [
+    "base64",
+    "serialize",
+    "compress",
+    "unicode"
+  ],
+  "author": "Doronin Stanislav <mugisbrows@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "uglify-js": "^3.1.3"
+  }
+}

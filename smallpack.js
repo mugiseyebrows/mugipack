@@ -1,5 +1,7 @@
 
-function SmallPack() {
+(function() {
+
+var SmallPack = function() {
 
   var alp = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
 
@@ -188,3 +190,10 @@ function SmallPack() {
     }
   }
 }
+
+if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
+  module.exports = new SmallPack();
+else
+  window.SmallPack = SmallPack;
+
+})();
