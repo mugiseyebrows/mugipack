@@ -6,15 +6,18 @@ A small library to encode unicode strings or objects to base64
 
 Add library
 ```html
-<script type="text/javascript" src="mugipack.min.js"></script>```
+<script type="text/javascript" src="mugipack.min.js"></script>
+```
 Instantiate and use
 ```javascript
 var mugipack = new MugiPack();
 var encoded = mugipack.encode({foo:'👍',bar:'❤'});
-var decoded = mugipack.decode(encoded);```
+var decoded = mugipack.decode(encoded);
+```
 ## In node
 
 run `npm install mugipack --save`
+
 ```javascript
 var mugipack = require('mugipack')
 var encoded = mugipack.encode({foo:'👍',bar:'❤'})
