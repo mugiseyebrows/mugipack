@@ -1,7 +1,7 @@
 
 (function() {
 
-var SmallPack = function() {
+var MugiPack = function() {
 
   var alp = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
 
@@ -192,8 +192,8 @@ var SmallPack = function() {
 }
 
 if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
-  module.exports = new SmallPack();
+  module.exports = new MugiPack();
 else
-  window.SmallPack = SmallPack;
+  window.MugiPack = MugiPack;
 
 })();

@@ -4,7 +4,7 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 (function () {
 
-  var SmallPack = function SmallPack() {
+  var MugiPack = function MugiPack() {
 
     var alp = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz+/";
 
@@ -212,5 +212,5 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
     };
   };
 
-  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') module.exports = new SmallPack();else window.SmallPack = SmallPack;
+  if (typeof module !== 'undefined' && typeof module.exports !== 'undefined') module.exports = new MugiPack();else window.MugiPack = MugiPack;
 })();

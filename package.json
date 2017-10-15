@@ -1,15 +1,15 @@
 {
-  "name": "smallpack",
-  "version": "1.0.0",
+  "name": "mugipack",
+  "version": "1.0.1",
   "description": "A small library to encode unicode strings or objects to base64",
-  "main": "smallpack.js",
+  "main": "mugipack.js",
   "scripts": {
-    "babelify": "babel smallpack.js -o build/smallpack.js",
-    "uglify": "uglifyjs build/smallpack.js -cm -o build/smallpack.min.js"
+    "babelify": "babel mugipack.js -o build/mugipack.js",
+    "uglify": "uglifyjs build/mugipack.js -cm -o build/mugipack.min.js"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:mugiseyebrows/smallpack.git"
+    "url": "git@github.com:mugiseyebrows/mugipack.git"
   },
   "keywords": [
     "base64",
